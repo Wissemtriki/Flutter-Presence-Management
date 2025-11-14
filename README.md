@@ -32,17 +32,17 @@ Password: 123456789
 git clone https://github.com/Wissemtriki/Flutter-Presence-Management.git
 cd flutter_presence
 flutter pub get
-Step 2: Rename the app package name (to avoid Firebase issues) manually or using the rename package
+**Step 2:** Rename the app package name (to avoid Firebase issues) manually or using the rename package
 .
 
-Step 3: Reinitialize Firebase CLI (See Documentation
+**Step 3:** Reinitialize Firebase CLI (See Documentation
 ).
 
-Step 4: Enable Firebase email/password authentication.
+**Step 4:** Enable Firebase email/password authentication.
 
-Step 5: Create Firestore Database.
+**Step 5:** Create Firestore Database.
 
-Step 6: Set up the database and admin account:
+**Step 6:** Set up the database and admin account:
 
 Add user in Firebase Authentication.
 
@@ -53,32 +53,23 @@ Create a Firestore collection using the UID as the document ID.
 Set the role field (admin or employee) and created_at using ISO8601 string format, e.g.:
 
 2022-05-10T12:34:58.274129
-Step 7: Run the Flutter app.
+**Step 7:** Run the Flutter app.
 
-Step 8: Update company data at lib/company_data.dart.
-
-About the Author
-
-Developed by mrezkys
-.
-UI designed by mrezkys
-.
-
-Thanks To
+**Step 8:** Update company data at lib/company_data.dart.
 
 Icons created by Piqo Design
  used in this project.
 
-License
+**License**
 
 Flutter Presence is licensed under the MIT License.
 
-Donate
+**Donate**
 
 Support the project at trakteer
 
 <a href="https://trakteer.id/mrezkys" target="_blank"><img src="https://cdn.trakteer.id/images/embed/trbtn-red-5.png" height="45" style="border: 0px;" alt="Trakteer Saya"></a>
 
-Announcement
+**Announcement**
 
 Flutter Presence is currently at v1.0.0.

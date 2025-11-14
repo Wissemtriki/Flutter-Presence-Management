@@ -1,5 +1,4 @@
 # Flutter Presence Management
-# Flutter Presence Management
 
 ## Introduction
 

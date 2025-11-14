@@ -1,0 +1,12 @@
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.idea/
+*.iml
+*.lock
+*.log
+.DS_Store
+.env
+

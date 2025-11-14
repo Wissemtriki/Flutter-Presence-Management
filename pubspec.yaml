@@ -1,0 +1,65 @@
+name: presence
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  cloud_firestore: ^4.15.8
+  convex_bottom_bar: ^3.2.0
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^4.17.8
+  firebase_core: ^2.27.0
+  firebase_storage: ^11.6.9
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10+1
+  geocoding: ^3.0.0
+  geolocator: ^11.1.0
+  get: ^4.6.5
+  image_picker: ^1.0.4
+  intl: ^0.19.0
+  maps_launcher: ^2.2.1
+  syncfusion_flutter_datepicker: 19.4.38
+
+
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+  fonts:
+    - family: poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins/Poppins-ExtraBold.ttf
+          weight: 800
+    - family: inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/inter/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/inter/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/inter/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/inter/Inter-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/inter/Inter-Black.ttf
+          weight: 900
